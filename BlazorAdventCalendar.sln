@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAdventCalendar", "BlazorAdventCalendar\BlazorAdventCalendar.csproj", "{05E727F5-8174-43D0-9B1C-749FB5574309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E727F5-8174-43D0-9B1C-749FB5574309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E727F5-8174-43D0-9B1C-749FB5574309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E727F5-8174-43D0-9B1C-749FB5574309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E727F5-8174-43D0-9B1C-749FB5574309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2C05B5E-D950-435A-8E8A-650F816A56DA}
+	EndGlobalSection
+EndGlobal

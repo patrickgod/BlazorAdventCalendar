@@ -1,0 +1,20 @@
+﻿@page "/"
+@inject IJSRuntime JS
+
+<PageTitle>Merry Christmas!</PageTitle>
+
+<div class="calendar">
+    @for (int i = 0; i < 24; i++)
+    {
+        <div class="door"><a href="/@doors[i]">@doors[i]</a></div>
+    }
+</div>
+
+@code {
+    int[] doors = new int[] { 4, 17, 19, 7, 22, 12, 2, 11, 14, 24, 13, 8, 6, 23, 3, 20, 1, 10, 18, 9, 15, 5, 21, 16 };
+
+    protected override async Task OnInitializedAsync()
+    {
+        await JS.InvokeVoidAsync("initsnow");
+    }
+}
